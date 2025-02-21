@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zupee - Play & Win</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-purple-600 text-white fixed w-full z-10">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <div class="text-2xl font-bold">Zupee</div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#" class="hover:text-purple-200">Home</a>
+                    <a href="#" class="hover:text-purple-200">Games</a>
+                    <a href="#" class="hover:text-purple-200">Tournaments</a>
+                    <a href="#" class="hover:text-purple-200">Rewards</a>
+                    <a href="#" class="hover:text-purple-200">Support</a>
+                </div>
+                <div>
+                    <button class="bg-white text-purple-600 px-6 py-2 rounded-full font-semibold hover:bg-purple-100">
+                        Download Now
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="pt-24 bg-gradient-to-r from-purple-600 to-indigo-600 text-white">
+        <div class="container mx-auto px-6 py-16">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-8 md:mb-0">
+                    <h1 class="text-4xl md:text-6xl font-bold mb-6">Play Games, Win Real Cash!</h1>
+                    <p class="text-xl mb-8">Join millions of players in skill-based gaming competitions and win exciting rewards.</p>
+                    <div class="flex space-x-4">
+                        <button class="bg-white text-purple-600 px-8 py-3 rounded-full font-semibold hover:bg-purple-100 flex items-center">
+                            <span>Get it on</span>
+                            <span class="ml-2 font-bold">Google Play</span>
+                        </button>
+                        <button class="bg-white text-purple-600 px-8 py-3 rounded-full font-semibold hover:bg-purple-100 flex items-center">
+                            <span>Download on</span>
+                            <span class="ml-2 font-bold">App Store</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="md:w-1/2">
+                    <img src="/api/placeholder/400/800" alt="Zupee App Screenshot" class="rounded-lg shadow-2xl">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Features Section -->
+    <div class="container mx-auto px-6 py-16">
+        <h2 class="text-3xl font-bold text-center mb-12">Why Choose Zupee?</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="bg-white p-8 rounded-xl shadow-lg text-center">
+                <div class="bg-purple-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <span class="text-2xl">🎮</span>
+                </div>
+                <h3 class="text-xl font-semibold mb-4">Skill-Based Games</h3>
+                <p class="text-gray-600">Compete in various skill-based games and showcase your talent to win big rewards.</p>
+            </div>
+            <div class="bg-white p-8 rounded-xl shadow-lg text-center">
+                <div class="bg-purple-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <span class="text-2xl">💰</span>
+                </div>
+                <h3 class="text-xl font-semibold mb-4">Real Cash Prizes</h3>
+                <p class="text-gray-600">Win real money by participating in tournaments and daily competitions.</p>
+            </div>
+            <div class="bg-white p-8 rounded-xl shadow-lg text-center">
+                <div class="bg-purple-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <span class="text-2xl">🏆</span>
+                </div>
+                <h3 class="text-xl font-semibold mb-4">Daily Tournaments</h3>
+                <p class="text-gray-600">Join exciting tournaments every day and compete with players across the country.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Popular Games -->
+    <div class="bg-gray-100 py-16">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12">Popular Games</h2>
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img src="/api/placeholder/300/200" alt="Game 1" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="font-semibold mb-2">Ludo Supreme</h3>
+                        <p class="text-gray-600 mb-4">Classic board game with exciting twists</p>
+                        <button class="bg-purple-600 text-white px-4 py-2 rounded-full w-full hover:bg-purple-700">
+                            Play Now
+                        </button>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img src="/api/placeholder/300/200" alt="Game 2" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="font-semibold mb-2">Carrom Champs</h3>
+                        <p class="text-gray-600 mb-4">Strategic board game for masters</p>
+                        <button class="bg-purple-600 text-white px-4 py-2 rounded-full w-full hover:bg-purple-700">
+                            Play Now
+                        </button>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img src="/api/placeholder/300/200" alt="Game 3" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="font-semibold mb-2">Snakes & Ladders Pro</h3>
+                        <p class="text-gray-600 mb-4">Classic game with modern rules</p>
+                        <button class="bg-purple-600 text-white px-4 py-2 rounded-full w-full hover:bg-purple-700">
+                            Play Now
+                        </button>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img src="/api/placeholder/300/200" alt="Game 4" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="font-semibold mb-2">Word Wizards</h3>
+                        <p class="text-gray-600 mb-4">Test your vocabulary skills</p>
+                        <button class="bg-purple-600 text-white px-4 py-2 rounded-full w-full hover:bg-purple-700">
+                            Play Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- How It Works -->
+    <div class="container mx-auto px-6 py-16">
+        <h2 class="text-3xl font-bold text-center mb-12">How It Works</h2>
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+            <div class="text-center">
+                <div class="bg-purple-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <span class="text-2xl font-bold text-purple-600">1</span>
+                </div>
+                <h3 class="font-semibold mb-2">Download App</h3>
+                <p class="text-gray-600">Get the app from Play Store or App Store</p>
+            </div>
+            <div class="text-center">
+                <div class="bg-purple-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <span class="text-2xl font-bold text-purple-600">2</span>
+                </div>
+                <h3 class="font-semibold mb-2">Sign Up</h3>
+                <p class="text-gray-600">Create your account in minutes</p>
+            </div>
+            <div class="text-center">
+                <div class="bg-purple-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <span class="text-2xl font-bold text-purple-600">3</span>
+                </div>
+                <h3 class="font-semibold mb-2">Add Money</h3>
+                <p class="text-gray-600">Add cash to your wallet securely</p>
+            </div>
+            <div class="text-center">
+                <div class="bg-purple-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <span class="text-2xl font-bold text-purple-600">4</span>
+                </div>
+                <h3 class="font-semibold mb-2">Start Playing</h3>
+                <p class="text-gray-600">Join games and start winning</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Testimonials -->
+    <div class="bg-purple-50 py-16">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12">What Players Say</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-xl shadow-lg">
+                    <p class="text-gray-600 mb-6">"Won ₹50,000 in my first month! The games are super fun and the withdrawal process is smooth."</p>
+                    <div class="flex items-center">
+                        <img src="/api/placeholder/50/50" alt="User" class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-semibold">Rahul S.</h4>
+                            <p class="text-gray-500">Delhi</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow-lg">
+                    <p class="text-gray-600 mb-6">"Best gaming platform I've used. The tournaments are exciting and the community is great!"</p>
+                    <div class="flex items-center">
+                        <img src="/api/placeholder/50/50" alt="User" class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-semibold">Priya M.</h4>
+                            <p class="text-gray-500">Mumbai</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow-lg">
+                    <p class="text-gray-600 mb-6">"Love the variety of games. Been playing for 6 months and won multiple tournaments!"</p>
+                    <div class="flex items-center">
+                        <img src="/api/placeholder/50/50" alt="User" class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-semibold">Amit K.</h4>
+                            <p class="text-gray-500">Bangalore</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Download Section -->
+    <div class="bg-gradient-to-r from-purple-600 to-indigo-600 text-white py-16">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold mb-8">Ready to Start Winning?</h2>
+            <p class="text-xl mb-8">Download Zupee now and join millions of players!</p>
+            <div class="flex justify-center space-x-4">
+                <button class="bg-white text-purple-600 px-8 py-3 rounded-full font-semibold hover:bg-purple-100">
+                    Download for Android
+                </button>
+                <button class="bg-white text-purple-600 px-8 py-3 rounded-full font-semibold hover:bg-purple-100">
+                    Download for iOS
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white">
+        <div class="container mx-auto px-6 py-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Zupee</h3>
+                    <p class="text-gray-400">Play games, showcase your skills, and win real cash prizes!</p>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white">About Us</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">How to Play</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Rules</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Support</a></li>
